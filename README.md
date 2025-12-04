@@ -27,12 +27,12 @@ O script criou automaticamente a estrutura no S3 para segregar os dados baseado 
 * `trusted/`: Dados higienizados e aprovados.
 * `rejected/`: Dados reprovados (Quarentena para auditoria).
 
-![Estrutura de Pastas no S3](./img/s3_camadas.png)
+![Estrutura de Pastas no S3](s3_camadas.png)
 
 ### 2. Dados Limpos (Camada Trusted)
 Abaixo, o resultado final do processamento. O script removeu corretamente as linhas com datas inválidas e valores negativos, restando apenas os dados consistentes (Notebook, Headset):
 
-![Dados Limpos no VS Code](./img/dados_limpos.png)
+![Dados Limpos no VS Code](dados_limpos.png)
 
 ## 🚀 Como Executar
 1. Clone este repositório.
