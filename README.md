@@ -1,5 +1,15 @@
 # Pipeline ETL e Qualidade de Dados na AWS (Pandas + Boto3) 🛡️
 
+<div align="center">
+
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![Boto3](https://img.shields.io/badge/Boto3-SDK-blueviolet?style=for-the-badge&logo=python&logoColor=white)
+![Data Quality](https://img.shields.io/badge/Data%20Quality-Great%20Expectations-success?style=for-the-badge)
+
+</div>
+
 ## 🎯 O Problema de Negócio
 Em projetos de migração de dados, é comum receber arquivos de **sistemas legados** contendo inconsistências críticas (datas inválidas, valores negativos, chaves primárias nulas). Ingerir esses dados diretamente em bancos de produção ou dashboards gera métricas erradas e desconfiança na área de dados.
 
@@ -41,3 +51,4 @@ Abaixo, o resultado final do processamento. O script removeu corretamente as lin
 4. Instale as dependências:
    ```bash
    pip install pandas boto3
+
